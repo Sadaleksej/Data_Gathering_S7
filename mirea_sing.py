@@ -30,7 +30,7 @@ print(len(url_list))
 
 i=3
 
-for url_item in url_list[0, i]:
+for url_item in url_list[0: i]:
 
     books_dict = {}
 
